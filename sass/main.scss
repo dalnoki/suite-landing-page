@@ -1,0 +1,21 @@
+@use "components/button";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-shadow: inherit;
+}
+
+body {
+  background-color: #FAF8F6;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 3.5rem;
+  justify-content: space-between;
+
+}

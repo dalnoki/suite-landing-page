@@ -1,0 +1,29 @@
+.btn, .btn__beta--transparent {
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  padding: 0.75rem 2rem 0.75rem 1rem;
+}
+.btn__beta--transparent {
+  background-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-shadow: inherit;
+}
+
+body {
+  background-color: #FAF8F6;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 3.5rem;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */
